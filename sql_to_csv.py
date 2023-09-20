@@ -1,11 +1,11 @@
 import sqlite3
 import csv
 
-db_filename = "/Users/alexkarry/Desktop/FOLDERS/Programming/Python/Advanced_Python_NYU/python_data_apy/session_02_working_files/session_2.db"
+db_filename = "../session_2.db"
 
 table_name = 'revenue'
 
-csv_filename = "/Users/alexkarry/Desktop/FOLDERS/Programming/Python/Advanced_Python_NYU/python_data_apy/session_02_working_files/revenue_from_db.csv"
+csv_filename = "../revenue_from_db.csv"
 
 def sql_to_csv(db_filename, table_name, csv_filename):
 
